@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { sendTelegramRequest, sendWaiter, sendBill } from "./assets/BotRequest";
+import { sendWaiter, sendBill } from "./assets/BotRequest";
 
 const MyContext = createContext();
 
@@ -37,9 +37,9 @@ export function MyContextProvider({ children }) {
   };
 
   const messageWaiter1 = `${contacts.name}. Table ${zonti} Call The Waiter.`;
-  const messageWaiter2 = `${contacts.name}. Table ${zonti} Just Called The Bill by Mistake, Waiter is calling.`;
+  // const messageWaiter2 = `${contacts.name}. Table ${zonti} Just Called The Bill by Mistake, Waiter is calling.`;
   const messageBill1 = `${contacts.name}.Table ${zonti} ask for Bill.`;
-  const messageBill2 = `${contacts.name}.Table ${zonti} Just Called The Waiter by Mistake, Bill is calling.`;
+  // const messageBill2 = `${contacts.name}.Table ${zonti} Just Called The Waiter by Mistake, Bill is calling.`;
 
   const performActionWaiter = (action) => {
     action();

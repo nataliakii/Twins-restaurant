@@ -93,7 +93,7 @@ export const sendBill = (message, zonti, restCoords, searchRadius, api) => {
 };
 
 export const sendTelegramRequest = (zonti) => {
-  const chat_id = "-4074718635";
+  // const chat_id = "-4074718635";
   const table_id = zonti;
   const timestamp = new Date().toLocaleTimeString();
   console.log(timestamp);

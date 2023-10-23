@@ -21,7 +21,7 @@ const MenuImage = styled("img")(({ theme }) => ({
   height: "auto",
   borderRadius: "50%",
   float: "left",
-  border: `2px solid ${theme.palette.secondary.main}`,
+  border: `2px solid ${theme.palette.primary.red}`,
 }));
 
 const MenuContent = styled("div")(({ theme }) => ({
@@ -32,25 +32,25 @@ const MenuContent = styled("div")(({ theme }) => ({
 const MenuLink = styled(Typography)(({ theme }) => ({
   paddingRight: theme.spacing(0),
   fontSize: "22px",
-  background: theme.palette.secondary.main,
+  // background: theme.palette.primary.red,
   position: "relative",
   zIndex: 3,
   fontWeight: 700,
-  color: theme.palette.text.light,
+  color: theme.palette.secondary.dark,
   transition: "color 0.3s",
   "&:hover": {
-    color: theme.palette.primary.main,
+    color: theme.palette.primary.red,
   },
 }));
 
 const MenuPrice = styled("span")(({ theme }) => ({
-  background: theme.palette.secondary.main,
+  // background: theme.palette.primary.red,
   position: "relative",
   fontSize: "22px",
   zIndex: 3,
   padding: theme.spacing(0, 2),
   fontWeight: 600,
-  color: theme.palette.primary.main,
+  color: theme.palette.secondary.dark,
 }));
 
 const MenuIngredients = styled("div")(({ theme }) => ({

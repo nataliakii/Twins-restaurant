@@ -12,8 +12,9 @@ import EmailIcon from "@mui/icons-material/Email";
 import { useMyContext } from "../MyContext";
 
 const Section = styled("section")(({ theme }) => ({
-  padding: theme.spacing(4, 0),
+  padding: theme.spacing(2, 0),
   textAlign: "center",
+  backgroundColor: theme.palette.secondary.light,
 }));
 
 const SectionTitle = styled(Typography)(({ theme }) => ({

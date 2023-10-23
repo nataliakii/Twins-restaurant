@@ -5,7 +5,6 @@ import { styled } from "@mui/material/styles";
 import { useMyContext } from "../MyContext";
 import MenuItemComponent from "../components/MenuItemComponent";
 import { CallWaiterButton, CallBillButton } from "../components/CallButtons";
-import CustomButton from "../components/CustomButton";
 import { menuItems, filterMenuItems } from "../assets/dataMenu";
 
 const Section = styled("section")(({ theme }) => ({
@@ -23,7 +22,7 @@ const CallButtonWrapper = styled("div")(({ theme }) => ({
 }));
 
 const SectionTitle = styled(Typography)(({ theme }) => ({
-  color: theme.palette.text.light,
+  color: theme.palette.text.dark,
   fontFamily: theme.typography.fontFamily,
   marginBottom: theme.spacing(1),
   marginTop: theme.spacing(2),
@@ -53,14 +52,14 @@ const FilterItem = styled(ListItem)(({ theme }) => ({
   whiteSpace: "nowrap",
   padding: theme.spacing(0, 2),
   fontSize: "19px",
-  fontWeight: 400,
+  fontWeight: 600,
   lineHeight: 1,
-  color: theme.palette.text.light,
+  color: theme.palette.text.dark,
   marginBottom: theme.spacing(2),
   transition: "color 0.3s",
   fontFamily: theme.typography.fontFamily,
   "&:hover": {
-    color: theme.palette.primary.main,
+    color: theme.palette.primary.red,
   },
   [theme.breakpoints.down("sm")]: {
     width: "100%",
@@ -70,7 +69,7 @@ const FilterItem = styled(ListItem)(({ theme }) => ({
 function Menu() {
   const [activeFilter, setActiveFilter] = useState("*");
   const [filteredMenuItems, setFilteredMenuItems] = useState([]);
-  const { zonti, setZont, handleCallBill } = useMyContext();
+  const { setZont } = useMyContext();
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
   const zont = searchParams.get("zont");

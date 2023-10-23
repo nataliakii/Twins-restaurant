@@ -9,25 +9,30 @@ export default createTheme({
       red: "#c33035",
     },
     secondary: {
-      main: "#1a1814",
-      light: "#302f2b",
+      main: "#F5F5F5",
+      middle: "#d2e0d2",
+      light: "#eaf9ea",
+      dark: "#248621",
     },
     text: {
-      light: "white",
-      dark: "#1a1814",
+      light: "#FFFFFF",
+      dark: "#248621",
       main: "#35C330",
       red: "#c33035",
     },
   },
 
   typography: {
-    fontFamily: ["Josefin Sans", "sans-serif"].join(","),
+    fontFamily: ["Inter", "sans-serif"].join(","),
     h1: {
       fontSize: "65px",
-      fontFamily: ["Mrs Saint Delafield", "cursive"].join(","),
+      fontFamily: ["Alegreya Sans", "sans-serif"].join(","),
     },
     allVariants: {
-      fontFamily: ["Josefin Sans", "sans-serif"].join(","),
+      fontFamily: ["Inter", "sans-serif"].join(","),
+    },
+    narrow: {
+      fontFamily: ["Ubuntu Condensed", "sans-serif"].join(","),
     },
   },
 });

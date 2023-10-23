@@ -9,7 +9,7 @@ import IconButton from "@mui/material/IconButton";
 import LanguageIcon from "@mui/icons-material/Language";
 import Popover from "@mui/material/Popover";
 import MenuItem from "@mui/material/MenuItem";
-import { IoRestaurantOutline } from "react-icons/io5";
+// import { IoRestaurantOutline } from "react-icons/io5";
 import { useMyContext } from "../MyContext";
 
 const HeaderStyling = styled(AppBar)(({ theme }) => ({
