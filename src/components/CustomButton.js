@@ -10,7 +10,7 @@ export default function CustomButton({ label, onClick, visibility = true }) {
         size="large"
         sx={{
           p: 2,
-          fontSize: "15px",
+          fontSize: "22px",
           fontWeight: 600,
           position: "sticky",
           top: 0,

@@ -3,8 +3,8 @@ import { styled } from "@mui/material/styles";
 import { Paper, Typography } from "@mui/material";
 
 const StyledMenuItem = styled(Paper)(({ theme }) => ({
-  margin: theme.spacing(2, 0),
-  padding: theme.spacing(3),
+  margin: theme.spacing(0, 0),
+  padding: theme.spacing(2),
   display: "flex",
   alignItems: "center",
   boxShadow: theme.shadows[4],

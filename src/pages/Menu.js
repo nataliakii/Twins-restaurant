@@ -24,8 +24,8 @@ const CallButtonWrapper = styled("div")(({ theme }) => ({
 const SectionTitle = styled(Typography)(({ theme }) => ({
   color: theme.palette.text.dark,
   fontFamily: theme.typography.fontFamily,
-  marginBottom: theme.spacing(1),
-  marginTop: theme.spacing(2),
+  marginBottom: theme.spacing(0),
+  marginTop: theme.spacing(1),
 }));
 
 const FilterList = styled(List)(({ theme }) => ({
