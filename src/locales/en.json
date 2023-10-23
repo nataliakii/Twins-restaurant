@@ -1,0 +1,40 @@
+{
+  "productHero": {
+    "slogan1": " Unleash Your Inner Royalty",
+    "slogan2": "Suiting All Tastes and Preferences",
+    "button": "Contact"
+  },
+  "productCategories": {
+    "text": "For all tastes and all desires"
+  },
+  "contacts": {
+    "contacts": "Contacts"
+  },
+  "apModal": {
+    "close": "close",
+    "size": "size",
+    "rf": "Room facilities",
+    "k": "Kitchen",
+    "pb": "Private Bathroom",
+    "ac": "Air-condition",
+    "sw": "Seaview",
+    "gv": "Garden view",
+    "sv": "City view",
+    "tv": "Flat-screen TV",
+    "elb": "extra large double-bed",
+    "db": "double-bed",
+    "sb": "single bed",
+    "of": "Outdoor Facilities:",
+    "b": "Balcony",
+    "t": "Terrace",
+    "p": "Price:",
+    "dates": "Dates",
+    "ms": "Min Stay (nights)",
+    "rate": "Rate (per day)",
+    "transfer": "Transfer from/to Airport Thessaloniki (one way)"
+  },
+  "smoking": {
+    "text1": "Need more ideas for your IDEAL holiday?",
+    "text2": "Check out our hotel in Perfochory!"
+  }
+}
